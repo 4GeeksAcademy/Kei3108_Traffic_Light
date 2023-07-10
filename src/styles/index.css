@@ -50,15 +50,15 @@
     background: #24a652;
   }
   
-  .glowRed {
+  .glossRed {
     box-shadow: 0px 0px 105px 9px rgba(252, 100, 86, 0.9);
   }
   
-  .glowYellow {
+  .glossYellow {
     box-shadow: 0px 0px 105px 9px rgba(252, 221, 128, 0.9);
   }
   
-  .glowGreen {
+  .glossGreen {
     box-shadow: 0px 0px 105px 9px rgba(92, 176, 121, 0.9);
   }
   

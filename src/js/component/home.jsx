@@ -17,15 +17,15 @@ const Home = () => {
 		<div className="trafficLight row justify-content-center">
 		  <div
 			onClick={() => handleColorClick("red")}
-			className={"col-1 light red" + (lightColor === "red" ? " glowRed" : "")}
+			className={"col-1 light red" + (lightColor === "red" ? " glossRed" : "")}
 		  ></div>
 		  <div
 			onClick={() => handleColorClick("yellow")}
-			className={"col-1 light yellow" + (lightColor === "yellow" ? " glowYellow" : "")}
+			className={"col-1 light yellow" + (lightColor === "yellow" ? " glossYellow" : "")}
 		  ></div>
 		  <div
 			onClick={() => handleColorClick("green")}
-			className={"col-1 light green" + (lightColor === "green" ? " glowGreen" : "")}
+			className={"col-1 light green" + (lightColor === "green" ? " glossGreen" : "")}
 		  ></div>
 		</div>
 		<div className="row mt-4">
